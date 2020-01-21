@@ -1,0 +1,24 @@
+/* ==================================================================
+   Buttons
+   ================================================================== */
+
+@import "../../assets/styles/colors";
+@import "../../assets/styles/sizes";
+
+.button {
+  appearance: none;
+  background: var(--color-supernova);
+  border: 0;
+  cursor: pointer;
+  padding: var(--spacing-third) var(--spacing);
+
+  &:hover {
+    background: var(--color-black);
+    color: var(--color-white);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}

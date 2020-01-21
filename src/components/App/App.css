@@ -1,0 +1,19 @@
+@import "../../assets/styles/globals";
+@import "../../assets/styles/grid";
+
+.data {
+  margin-top: 20px;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+.logo {
+  position: absolute;
+  z-index: 1000;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+}

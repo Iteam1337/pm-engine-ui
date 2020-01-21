@@ -1,0 +1,11 @@
+:global {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+.leaflet-container img {
+    transition: transform 100ms;
+}

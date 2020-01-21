@@ -1,0 +1,21 @@
+/* ==================================================================
+   Input
+   ================================================================== */
+
+@import "assets/styles/colors";
+@import "assets/styles/sizes";
+
+.input {
+  border: var(--border-width) solid var(--color-supernova);
+  margin: var(--spacing-third) 0;
+  padding: var(--spacing-third) var(--spacing);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "pm-engine-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iteam1337/pm-engine-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iteam1337/pm-engine-ui/issues"
+  },
+  "homepage": "https://github.com/Iteam1337/pm-engine-ui#readme",
+  "dependencies": {
+    "engine": "github:iteam1337/engine"
+  }
+}
